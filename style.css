@@ -795,7 +795,7 @@ nav ul li a {
   border: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .sec_1_cntr {
     width: 100%;
     height: 500px;
@@ -1156,44 +1156,40 @@ nav ul li a {
   .sec_16_cntr h4 {
     text-align: center;
   }
-  .sec_17_cntr{
+  .sec_17_cntr {
     width: 100%;
     height: 10rem;
-      }
-  .cntr_17_box{
+  }
+  .cntr_17_box {
     border-radius: 10px;
     width: 90%;
     height: 8rem;
   }
-  .sec_18{
+  .sec_18 {
     width: 100%;
-    height: 30rem;
+    height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
-
   }
-  .sec_18_cntr{
+  .sec_18_cntr {
     width: 90%;
     height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
-    
   }
-  .sec_18_cntr h1{
+  .sec_18_cntr h1 {
     text-align: center;
     font-size: 35px;
     line-height: 35px;
   }
-  .sec_18_cntr p{
+  .sec_18_cntr p {
     line-height: 30px;
     text-align: center;
     max-width: 250px;
   }
-  .sec_18_cntr button{
+  .sec_18_cntr button {
     width: 80%;
   }
 }
