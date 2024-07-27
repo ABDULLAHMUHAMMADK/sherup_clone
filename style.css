@@ -20,6 +20,7 @@ nav {
   font-weight: bold;
 }
 nav ul li {
+  
   list-style: none;
   display: inline-block;
 }
@@ -272,12 +273,7 @@ nav ul li a {
   justify-content: center;
   gap: 25px;
 }
-/* .sec_7_cntr div {
-  width: 45%;
-  height: 600px;
-  border: 2px solid #512a00;
-  border-radius: 20px;
-} */
+
 .sec_7_box_1 {
   width: 45%;
   height: 600px;
@@ -796,6 +792,9 @@ nav ul li a {
 }
 
 @media screen and (max-width: 900px) {
+  .nav_data {
+    visibility: hidden;
+  }
   .sec_1_cntr {
     width: 100%;
     height: 500px;
