@@ -792,7 +792,12 @@ nav ul li a {
 }
 
 @media screen and (max-width: 900px) {
+  nav{
+    width: 100%;
+    border: 2px solid black;
+  }
   .nav_data {
+    
     visibility: hidden;
   }
   .sec_1_cntr {
